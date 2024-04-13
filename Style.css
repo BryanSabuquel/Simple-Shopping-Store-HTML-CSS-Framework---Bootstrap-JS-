@@ -1,0 +1,150 @@
+body{
+  background-color: #151922;
+}
+.navbar {
+  background-color: white;
+  border-bottom: 4px solid #454444;
+  margin-bottom: 10px;
+  
+}
+
+img {
+  width: 80px;
+  height: 80px;
+  margin: 0px 10px 0px 0;
+}
+.navbarLogo {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Playfair Display', serif;
+  color: black;
+  margin-right: 200px;
+}
+
+.header{
+  background-image: url("Header.jpg");
+  border-color: 1px solid #454444;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 550px;
+}
+
+.detailbox{
+  position: relative;
+  top:50px;
+  left: 50px;
+}
+.sale {
+  color: darkred;
+}
+
+.btnShop {
+  background-color: darkblue;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1em;
+  color: white;
+  font-weight: bold;
+}
+
+
+
+
+.categMore {
+  color: white;
+}
+more{
+  font-size: 60px;
+}
+
+.line {
+  width: 100%;
+  height: 0.3px;
+  background-color: white;
+}
+
+.cProductBox {
+  display: block;
+  position: relative;
+  height: 200px;
+  background-color: white;
+  border: 2px solid black;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  width: calc(25% - 5px);
+}
+
+.cProductBox:active {
+  transform: scale(0.95);
+}
+
+
+.cProductBox .card-img-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-body {
+  position: absolute;
+  bottom: 0;
+  left: 7px;
+  width: 100%;
+}
+
+.card-text {
+  color: black;
+  text-shadow: 0 0 3px white;
+  font-size: 17px;
+  margin-bottom: 0;
+}
+
+.Price {
+  color: darkred;
+  text-shadow: 0 0 2px white;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.line2 {
+  width: 100%;
+  height: 0.3px;
+  background-color: white;
+}
+
+.OnSale {
+  margin-bottom: 70px;
+}
+
+.sProductBox {
+  position: relative;
+  height: 300px;
+  background-color: white;
+  border: 2px solid black;
+  margin-bottom: 10px;
+  width: calc(auto - 10px);
+  margin-right: 0;
+}
+
+.sProductBox:active {
+  transform: scale(0.95);
+}
+
+.sProductBox .card-img-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btmHeader {
+  width: 100%;
+  height: 300px;
+  background-color: white;
+}
